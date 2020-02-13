@@ -1,6 +1,15 @@
 # encryption
-Encrypted filesa for emapp
+#Encrypted files for emapp
 
-Decrypt using:
+#Decrypt using:
 
-gpg -o private_key.pepk -d private_key.pepk.gpg
+$ gpg -o private_key.pepk -d private_key.pepk.gpg
+
+
+#sha256sum checksum of decrypted file:
+
+$ sha256sum private_key.pepk
+
+#output:
+
+c1b2303f8652b4cd0cf4a7eba92a8b902977b07c4e96f28df9566e2963e3b440
