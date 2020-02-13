@@ -1,5 +1,6 @@
 # encryption
 #Encrypted files for emapp
+# First decrypt then check checksum
 
 
 #1. Decrypt using:
